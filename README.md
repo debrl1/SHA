@@ -6,6 +6,15 @@ This repository holds an implementation of the secure hash algorithm 256
 
 This project has no external dependencies.
 
+### Usage
+
+To use this library in a C project, do the following:
+
+ 1. clone the repository in the `libs/` directory of your project;
+ 2. run `make all` after `cd`ing into the `libs/SHA` directory;
+ 3. add the `-Ilibs/SHA/include` option to your `CFLAGS` (so you can `#include <sha256.,h>` into your project source files), and
+ 4. link any required object files from the `libs/SHA/obj/` directory.
+
 ### Motivation
 
 All of the code within this repository was written by me so I could
@@ -16,9 +25,9 @@ All of the code within this repository was written by me so I could
 
 ### Current state of the project
 
-As of now (09/03/2022) the `sha256hash` function passes the two tests in
-`test/sha256.c`. These tests are based on the test vectors given in FIPS
-publication 180-2.
+As of now (15/03/2022) the `sha256hash` function passes all tests in
+`test/sha256.c`. These tests consists of the test vectors given in FIPS
+publication 180-2 among others.
 
 ### Security notice
 

@@ -6,7 +6,7 @@
 #include "preprocessing/padding.h"
 #include "preprocessing/parsing.h"
 
-#include "sha256.h"
+#include "../include/sha256.h"
 
 int count = 0;
 
