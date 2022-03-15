@@ -16,7 +16,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "../src/sha256.h"
+#include "../include/sha256.h"
 
 uint8_t success = 1;
 
