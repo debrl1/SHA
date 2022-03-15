@@ -12,7 +12,7 @@ To use this library in a C project, do the following:
 
  1. clone the repository in the `libs/` directory of your project;
  2. run `make all` after `cd`ing into the `libs/SHA` directory;
- 3. add the `-Ilibs/SHA/include` option to your `CFLAGS` (so you can `#include <sha256.,h>` into your project source files), and
+ 3. add the `-Ilibs/SHA/include` option to your `CFLAGS` (so you can `#include <sha256.h>` into your project source files), and
  4. link any required object files from the `libs/SHA/obj/` directory.
 
 ### Motivation
